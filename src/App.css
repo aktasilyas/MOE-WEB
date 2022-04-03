@@ -1,0 +1,6 @@
+.sidebar{
+    @apply bg-white dark:bg-gray-900  w-full md:w-64 absolute md:relative inset-0  opacity-0 md:opacity-100 invisible md:visible flex-shrink-0 border-r dark:border-gray-800 overflow-auto transition-all
+}
+.sidebar.active{
+    @apply   z-10 opacity-100 visible top-15 md:top-0
+}

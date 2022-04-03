@@ -1,0 +1,4 @@
+.navlink{
+    display: flex;
+    @apply px-3 rounded items-center font-medium transition-colors text-sm h-10 hover:bg-gray-100 dark:hover:bg-gray-800
+}
